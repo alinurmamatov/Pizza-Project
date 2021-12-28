@@ -62,3 +62,49 @@ border-radius: 5px;}
 .price-ul li{
     list-style: none;
 }
+
+/* Pizza Maker */
+
+.pizza-maker {
+    position: absolute;
+    text-align: center;
+}
+
+.dough {
+    position: relative;
+    z-index: 0;
+    left: 20px;
+}
+
+.dough img {
+    width: 700px;
+}
+
+.pepper {
+    position: relative;
+    bottom: 570px;
+    z-index: 1;
+}
+
+.pepperoni {
+    position: relative;
+    top: -1070px;
+    z-index: 2;
+}
+
+.pepperoni img {
+    width: 500px;
+}
+
+.mushroom {
+    position: relative;
+    top: -1590px;
+    z-index: 3;
+}
+
+.mushroom img {
+    width: 750px;
+    margin: 0;
+    padding: 0;
+    left: -50px;
+}
